@@ -9,7 +9,7 @@ Welcome to my Data Analyst Portfolio Projects repository! This collection showca
   - Prepared the dataset using Excel.
   - Imported the dataset into SQLServer.
   - Explored the dataset by creating SQL queries.
-- **[Link to Project 1: SQL Data Exploration](https://github.com/Shivangsinhs/Analytics_Projects/tree/main/01_SQL%20Data%20Exploration)**
+- **[Link to Project 1: SQL Data Exploration](https://github.com/Shivangsinhs/Analytics_Projects/tree/main/01_SQL%20data%20exploration)**
 
 ## Project 2: Tableau Visualization
 - **Description**: This project focused on visualizing processed Covid-19 data using Tableau.
