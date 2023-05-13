@@ -1,9 +1,10 @@
-# Data Analyst Portfolio Projects
-
 Welcome to my Data Analyst Portfolio Projects repository! This collection showcases a diverse range of data analysis and visualization projects. Each project focuses on different aspects of data exploration, cleaning, and analysis, utilizing various tools and technologies. 
 
 ## Project 1: SQL Data Exploration
 - **Description**: In this project, I explored a Covid-19 dataset to gain insights and uncover patterns using SQL queries.
+- **Technologies used**:
+  - SQLServer
+  - Excel
 - **Tasks**:
   - Obtained the Covid-19 dataset.
   - Prepared the dataset using Excel.
@@ -13,6 +14,8 @@ Welcome to my Data Analyst Portfolio Projects repository! This collection showca
 
 ## Project 2: Tableau Visualization
 - **Description**: This project focused on visualizing processed Covid-19 data using Tableau.
+- **Technologies used**:
+  - Tableau Public
 - **Tasks**:
   - Retrieved processed Covid-19 data from SQLServer.
   - Imported the data into Tableau Public.
@@ -21,6 +24,8 @@ Welcome to my Data Analyst Portfolio Projects repository! This collection showca
 
 ## Project 3: Data Cleaning in SQL
 - **Description**: In this project, I performed data cleaning tasks on the Nashville Housing dataset using SQL.
+- **Technologies used**:
+  - SQLServer
 - **Tasks**:
   - Obtained the Nashville Housing dataset.
   - Imported the dataset into SQLServer.
@@ -29,6 +34,11 @@ Welcome to my Data Analyst Portfolio Projects repository! This collection showca
 
 ## Project 4: Analyzing Correlations in Movie Dataset using Python Pandas Library
 - **Description**: This project involved analyzing a movie dataset using Python's Pandas library to identify correlations between variables.
+- **Technologies used**:
+  - Python
+  - Pandas
+  - Matplotlib
+  - Seaborn
 - **Tasks**:
   - Obtained a movie dataset from Kaggle.
   - Read the data into a Pandas DataFrame.
@@ -36,7 +46,7 @@ Welcome to my Data Analyst Portfolio Projects repository! This collection showca
   - Conducted data analysis by creating plots and correlation matrices using Matplotlib and Seaborn.
 - **[Link to Project 4: Analyzing Correlations in Movie Dataset](https://github.com/Shivangsinhs/Analytics_Projects/tree/main/04_Co-relation%20of%20Movies%20using%20Pandas)**
 
-I apologize for the confusion. Here's the updated section with technologies included:
+These technologies were utilized to perform various tasks such as data exploration, data cleaning, data visualization, and data analysis in the respective projects.
 
 ## Project 5: Tableau Visualization - Credit Card Complaints
 - **Description**: This project focuses on visualizing a dataset of credit card complaints using Tableau.
