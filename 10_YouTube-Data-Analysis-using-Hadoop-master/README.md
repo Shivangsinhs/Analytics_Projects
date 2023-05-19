@@ -1,99 +1,71 @@
 # YouTube Dataset Analysis - MapReduce Design Patterns using Apache Hadoop, Pig, Hive
 
-## University group project for Advanced Hadoop MapReduce Programming for Big Data Analytics course.
+This project is a university group project completed for the Advanced Hadoop MapReduce Programming for Big Data Analytics course. The goal of the project is to analyze the YouTube open source API dataset using Apache Hadoop, Pig, and Hive, applying various MapReduce design patterns and big data analysis techniques.
 
 ![image](https://user-images.githubusercontent.com/57429405/125012988-10876b00-e039-11eb-8372-eb6d48e8bc24.png)
 
-•	Implemented Apache Hadoop big data framework to analyze data with help of HDFS, map-reduce design patterns, Pig, HBase.
+## Features
 
-•	Implemented Data flow language Apache pig built on top of Hadoop to execute Pig Scripts for BIg Data Analysis
+- Implemented Apache Hadoop big data framework, including HDFS and MapReduce design patterns, to analyze the YouTube dataset.
+- Utilized Apache Pig, a data flow language built on top of Hadoop, to execute Pig Scripts for Big Data Analysis.
+- Created a data warehouse using Apache Hive for further analysis.
 
-•	Manifested Datawarehouse using Apache Hive 
+## Problem Statement
 
-### Problem Statement :-
+The objective of this project is to analyze the YouTube dataset using Hadoop, Pig, and Hive based on different column fields in order to provide comprehensive insights into the data.
 
-Analyze the Youtube open source API Big dataset using Hadoop, Pig and HIVE based on different column 
-fields to provide various comprehensive insights
+## Dataset Summary
 
+The dataset used for analysis is available at the following URL: http://netsg.cs.sfu.ca/youtubedata/
 
-### Summary :-
+The dataset includes the following information for each YouTube video (separated by '\t' in the data file):
+- Video ID: an 11-digit unique identifier for each video
+- Uploader: the username of the video uploader
+- Age: the number of days between the date when the video was uploaded and Feb.15, 2007 (YouTube's establishment)
+- Category: the category chosen by the uploader for the video
+- Length: the length of the video in seconds
+- Views: the number of views for the video
+- Rate: the video rating as a float number
+- Ratings: the number of ratings received for the video
+- Comments: the number of comments received for the video
+- Related IDs: up to 20 strings representing the IDs of related videos
 
-The dataset was available on the following Url:
+## Implemented MapReduce Design Patterns
 
-http://netsg.cs.sfu.ca/youtubedata/
-
-We record the following information of a YouTube video in order; they are divided by '\t' in the data file.
-
-
-video ID   : an 11-digit string, which is unique
-
-uploader   : a string of the video uploader's username
-
-age        : an integer number of days between the date when the video was uploaded and Feb.15,2007 (YouTube's establishment)
-
-category   : a string of the video category chosen by the uploader
-
-length     : an integer number of the video length
-
-views      : an integer number of the views
-
-rate       : a float number of the video rate
-
-ratings    : an integer number of the ratings
-
-comments   : an integer number of the comments
-
-related IDs: up to 20 strings of the related video IDs
-
-
-
-
-### Datasets of User Information:-
-
-We have collected the information about YouTube users. The crawler retrieves information on the
-number of uploaded videos and friends of each user from the YouTube API, for a total of more than 1
-million users. There is "user.txt", containing the information of number of uploads, watches and friends
-in order.
-
-
-
-
-Following MapReduce programs and its different design patterns like mentioned below are 
-implemented:
+The project includes the implementation of various MapReduce programs and design patterns, including:
 1. Filtering
 2. Join Patterns
 3. Data Organization
 4. Summarization
 
+## Analysis Performed
 
+The dataset analysis includes the following tasks:
 
+### MapReduce Analysis:
+1. Calculating the maximum rating, total rating, and total comment count by Video ID
+2. Calculating the moving rating average by Video ID
+3. Determining the best YouTuber based on the number of videos uploaded
+4. Finding the top 50 favorite YouTube videos
+5. Counting the total number of YouTube videos by category
+6. Implementing binning based on categories
+7. Chaining the binning result to get the top 25 videos per category
+8. Recommending followers based on connected followers
+9. Determining the total views based on Video ID
 
-Following analysis can be performed on the data-set :
-1. Calculate Max Rating Total Rating and Total Comment Count by Video ID
-2. Moving Rating Average by Video_ID
-3. Best Youtuber based on videos uploaded
-4. Top 50 Favorite YouTube Videos
-5. Total YouTube Videos by Category
-6. Implement Binning based on Categories
-7. Implement Chaining on Binning result to get Top 25 Videos per category
-8. Recommend followers based on connected followers
-9. Total Views based on Video ID
+### Pig Analysis:
+1. Finding the top 5 categories of YouTube videos
+2. Finding the top 10 rated YouTube videos
+3. Finding the top 10 rated YouTube videos by categories
+4. Finding the top 10 viewed YouTube videos
+5. Finding the top 10 viewed YouTube videos by categories
 
+### Hive Analysis:
+1. Determining the top 10 channels with the maximum number of likes
+2. Finding the top 5 categories with the maximum number of comments
 
-Following Pig analysis is performed on the data-set : ( Implemented Visualizations for Pig Analysis found at the bottom in the Pig analysis section )
-1. Calculate top 5 Categories of Youtube Videos
-2. Calculate top 10 Rated of Youtube Videos
-3. Calculate top 10 Rated By Categories of Youtube Videos
-4. Calculate top 10 Viewed of Youtube Videos
-5. Calculate top 10 Viewed By Categories of Youtube Videos
+## Visualizations
 
-Following Hive analysis is performed on the data-set :
-1. Calculate top 10 channels with maximum number of likes
-2. Calculate top 5 categories with maximum number of comments
-
-
-
-
-
+Visualizations for Pig analysis can be found at the bottom in the Pig analysis section of the project.
 
 
