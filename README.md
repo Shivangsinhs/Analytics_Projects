@@ -77,6 +77,14 @@ These technologies were utilized to perform various tasks such as data explorati
   - Conducted in-depth analysis of sales data by applying various analytical techniques and visualizations, such as charts, graphs, and slicers, to uncover patterns, identify opportunities, and support decision-making processes.
 - **Results**: The project generated comprehensive sales insights, enabling stakeholders to understand sales performance, identify top-selling products, analyze customer behavior, monitor regional sales trends, and make data-driven business decisions for improved profitability and growth.
 - **Technologies**: SQL, SQLServer, Power BI.
+## Project 8: Sales Insights - Power BI and SQL
+
+## Project 9: Spotify Data Analysis using Python
+
+## Project 10: Youtube Data Analysis using Hadoop
+
+## Project 7: Northwind Trading Project
+
 
 Feel free to explore each project in detail by clicking on the provided links. Each project folder contains the necessary files, documentation, and code related to that specific project.
 Thank you for your interest in my Data Analyst Portfolio Projects!
