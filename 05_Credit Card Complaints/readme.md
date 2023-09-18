@@ -5,7 +5,7 @@
 
 This project involves the creation of a Tableau dashboard for analyzing credit card complaints data. The goal is to provide insightful visualizations and analytics to better understand customer complaints related to credit card services.
 
-![Tableau Dashboard Preview](dashboard_preview.png)
+![Tableau Dashboard Preview](https://github.com/Shivangsinhs/Analytics_Projects/blob/main/05_Credit%20Card%20Complaints/image.png)
 
 ## Table of Contents
 
