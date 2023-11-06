@@ -3,7 +3,8 @@
 This project involved analyzing sales and order data for Northwind Traders, a fictional gourmet food supplier. The dataset included information on customers, products, orders, shippers, and employees. The goal of the project was to build a top-level Key Performance Indicator (KPI) dashboard to provide Northwind Traders' executives with a quick understanding of the company's performance in key areas.
 
 ## Key Insights
-![1684576193534](https://github.com/Shivangsinhs/Analytics_Projects/assets/116307753/0c68994c-60ae-47e8-91b2-9eadd4155a82)
+![1684576193534](<img width="803" alt="image" src="https://github.com/Shivangsinhs/Analytics_Projects/assets/116307753/95d569ea-fe4b-4701-8b6a-eabd54ffaf31">
+)
 
 1. The top two trading countries for Northwind Traders in terms of revenue and profit are the USA and Germany.
 2. Margaret Peacock is the leading employee in terms of revenue generated for the company.
@@ -23,3 +24,4 @@ This project involved analyzing sales and order data for Northwind Traders, a fi
 
 - Data Source: Maven Analytics
 - Tools: Tableau, SQL, Python
+- Special Thanks to Manish Sharma (friend)
