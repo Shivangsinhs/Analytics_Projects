@@ -25,4 +25,4 @@ This project involved analyzing sales and order data for Northwind Traders, a fi
 
 - Data Source: Maven Analytics
 - Tools: Tableau, SQL, Python
-- Special Thanks to Manish Sharma (friend)
+- Special thanks to Manish Sharma (friend) for their invaluable collaboration on this project.
